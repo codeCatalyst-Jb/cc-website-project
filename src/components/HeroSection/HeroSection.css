@@ -1,4 +1,12 @@
 #hero-btn:hover {
-    color: black;
-    background: white;
+  color: black;
+  background: white;
+}
+
+.bg-custom {
+  background-image: linear-gradient(0deg, #7342ba, #421c87, #17092f, #0a0a0a);
+}
+
+.custom-shadow {
+  box-shadow: inset 0px 20px 30px 20px #784dbd;
 }
