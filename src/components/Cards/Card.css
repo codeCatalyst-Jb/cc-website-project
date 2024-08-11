@@ -1,0 +1,36 @@
+.card{
+  width: 70vw;
+  margin: 30px auto;
+  display: flex;
+  /* flex-direction: column; */
+  background-color: rgb(29, 28, 28);
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+    transition: all ease 1s;
+}
+button{
+  transition: all ease 3s;
+}
+button:hover{
+  color:white;
+  border: none;
+}
+.card:hover{
+  background: transparent;
+  color: blue;
+}
+@media screen and (max-width:786px){
+  .img img{
+    width: 250px;
+  }
+
+}
+@media screen and (max-width:586px){
+ .card{
+  flex-wrap: wrap;
+  gap: 10px;
+ }
+
+}
