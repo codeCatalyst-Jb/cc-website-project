@@ -1,4 +1,4 @@
-.card{
+.card {
   width: 70vw;
   margin: 10px auto;
   display: flex;
@@ -8,41 +8,48 @@
   justify-content: center;
   align-items: center;
   padding: 5px;
-    transition: all ease 1s;
+  transition: all ease .21s;
 }
-button{
-  transition: all ease 3s;
+
+button {
+  transition: all ease .3s;
 }
-button:hover{
-  color:white;
+
+button:hover {
+  color: white;
   border: none;
 }
-.card:hover{
+
+.card:hover {
   background: transparent;
   color: blue;
 }
+
 @media (min-width:786px) {
-  img{
+  img {
     width: 150px;
     height: 150px;
   }
-  .card{
+
+  .card {
     width: 60vw;
     justify-content: space-evenly;
   }
 }
-@media screen and (max-width:786px){
-  .img img{
+
+@media screen and (max-width:786px) {
+  .img img {
     width: 250px;
   }
 
 }
-@media screen and (max-width:586px){
- .card{
-  width: 90vw;
-  text-wrap: wrap;
-  flex-wrap: wrap;
-  gap: 10px;
- }
+
+@media screen and (max-width:586px) {
+  .card {
+    width: 90vw;
+    text-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
 
 }
