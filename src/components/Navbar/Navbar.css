@@ -41,8 +41,16 @@
     color: black;
 }
 
+.nav-hamMenu {
+    display: none;
+}
+
 @media (max-width: 1085px) {
     #nav-menu {
         display: none;
+    }
+
+    .nav-hamMenu {
+        display: block;
     }
 }

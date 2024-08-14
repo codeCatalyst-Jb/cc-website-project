@@ -2,3 +2,9 @@
     color: black;
     background: white;
 }
+
+@media (max-width: 600px) {
+    #HeroSection h1 {
+        font-size: 4.5rem;
+    }
+}
