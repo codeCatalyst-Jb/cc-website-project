@@ -21,12 +21,8 @@ const Navbar = () => {
             <li>Services</li>
           </ul>
           <div id="nav-btn" className="flex gap-6">
-            <button className="contact-navBtn border-2 rounded-xl py-2 px-4 border-blue-500">
-              Sign in
-            </button>
-            <button className="contact-navBtn border-2 rounded-xl py-2 px-4 border-blue-500">
-              Connect
-            </button>
+          <button className="bg-white text-black px-4 py-2 rounded-lg font-bold">Sign In</button>
+          <button className="bg-white text-black px-4 py-2 rounded-lg font-bold hover:bg-gray-100 hover:text-gray-800 transition-colors duration-200 ease-in-out">Connect</button>
           </div>
         </div>
 

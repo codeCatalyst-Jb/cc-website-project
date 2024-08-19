@@ -30,7 +30,7 @@
     bottom: 0;
     left: 0;
     height: 2px;
-    background-color: aqua;
+    background-color: #a972f6;
     transform: translateX(-110%);
     transition: all 0.3s ease;
     z-index: -1;

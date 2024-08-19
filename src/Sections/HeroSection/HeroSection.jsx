@@ -3,22 +3,17 @@ import "./HeroSection.css";
 
 const HeroSection = () => {
   return (
-    <div id="HeroSection" className="w-full h-screen">
-      <h1 className="text-blue-500 text-[10vw] text-center font-bolder pt-8">
+    <div id="HeroSection" className="w-full h-screen items-center flex flex-col justify-center gap-8">
+      <h1 className="font-semibold text-6xl sm:text-4xl md:text-[165px] lg:text-10xl pb-9 dark:text-white ">
         Code Catalyst
       </h1>
-      <p className="text-white text-center text-slate-500  mx-auto">
+      <p className="dark:text-white text-center text-slate-500  mx-auto">
         Read more Celebrate the joy of accomplishment with an <br /> app
         designed to track your progress, motivate <br /> your efforts, and
         celebrate your successes.
       </p>
       <div className="button_wrapper flex items-center justify-center pt-12">
-        <button
-          id="hero-btn"
-          className="text-white border-2 border-blue-500 rounded-full px-6 py-2 font-bold text-lg"
-        >
-          Know more
-        </button>
+      <button className="bg-white text-black px-4 py-2 rounded-lg font-bold">Know More </button>
       </div>
     </div>
   );
