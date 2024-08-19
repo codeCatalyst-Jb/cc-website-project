@@ -1,0 +1,13 @@
+p{
+  width: 350px;
+  }
+@media (max-width:586px) {
+  p{
+    padding-left: 10%;
+  }
+}
+@media (max-width:486px) {
+  p{
+    padding: 0;
+  }
+}
