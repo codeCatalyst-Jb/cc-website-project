@@ -25,15 +25,6 @@
 
 .formContainer{
     flex:1;
-    position: relative;
-
-    .phoneSvg{
-        background-color: blueviolet;
-        position: absolute;
-        margin:auto;
-        stroke:rgb(100, 52, 100);
-    }
-
 
     form{
 
