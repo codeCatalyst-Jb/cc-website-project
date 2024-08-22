@@ -13,10 +13,10 @@ function App() {
       <Navbar />
       <HeroSection />
       <About />
-      <Events />
+      {/* <Events />
       <Team />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
