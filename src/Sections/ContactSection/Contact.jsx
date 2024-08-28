@@ -10,7 +10,7 @@ const Contact = () => {
 
   return (
     <div id="contact-section">
-      <h1 className="text-4xl font-bold mt-8 w-full text-center text-white">
+      <h1 className="text-4xl font-bold pt-8 w-full text-center text-white">
         Contact US
       </h1>
       <p className="text-white text-center w-full mt-1 mb-8 text-gray-500 font-md">

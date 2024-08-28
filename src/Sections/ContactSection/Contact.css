@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+#contact-section {
+    background-color: #010002;
+}
+
 body {
     margin: 0;
     font-family: Roboto, -apple-system, 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
