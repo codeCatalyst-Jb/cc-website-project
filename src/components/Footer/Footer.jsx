@@ -5,7 +5,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-gray-900 h-25vh border-white flex flex-wrap gap-5 text-gray-600 justify-evenly items-center px-6 py-5">
+      <footer className="bg-zinc-900  h-25vh border-white flex flex-wrap gap-5 text-gray-400 justify-evenly items-center px-6 py-5">
         <div className="about">
           <img src={Img} alt="" className="w-1/5" />
           <p>

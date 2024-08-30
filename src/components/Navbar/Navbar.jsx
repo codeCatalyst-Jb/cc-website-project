@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Img from "../../assets/cclogo2-.png";
 import "./Navbar.css";
+import Aboutpage from '../../subpages/about-subpages/Aboutpage.jsx'
 
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
@@ -17,7 +18,7 @@ const Navbar = () => {
         <div id="nav-menu" className="flex gap-24 items-center">
           <ul id="menuItem" className="flex gap-8 cursor-pointer">
             <li>Home</li>
-            <li>About Us</li>
+            <a href={Aboutpage}><li>About Us</li></a>
             <li>Services</li>
           </ul>
           <div id="nav-btn" className="flex gap-6">
