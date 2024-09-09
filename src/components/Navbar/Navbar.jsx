@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Img from "../../assets/cclogo2-.png";
 import "./Navbar.css";
-import Aboutpage from '../../subpages/about-subpages/Aboutpage.jsx'
+import Aboutpage from '../../subpages/about_subpages/Aboutpage.jsx'
 
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);

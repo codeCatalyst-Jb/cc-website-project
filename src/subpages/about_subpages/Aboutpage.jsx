@@ -1,12 +1,12 @@
 import React from "react";
-import Img from "./assets/about-bg.jpg";
-import Accordian from "./components/Accordian";
+import Img from "./Aboutpage.jsx";
+import Accordian from "../../components/Accordian/Accordian.jsx";
 
 const Aboutpage = () => {
   const accordionItems = [
     { title: 'Our History', content: 'Content for section 1' },
     { title: 'Our mission', content: 'Content for section 2' },
-    { title: 'Our vision', content: 'Content for section 3' },
+    { title: 'Our vision', content: 'Content for section 3' }
   ];
   return (
     <>

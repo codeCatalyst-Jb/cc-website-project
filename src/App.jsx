@@ -6,7 +6,7 @@ import Events from "./Sections/Events";
 import Team from "./Sections/Team";
 import Contact from "./Sections/Contact";
 import Footer from "./components/Footer/Footer";
-import Aboutpage from './subpages/about-subpages.jsx'
+import Aboutpage from "./subpages/about_subpages/Aboutpage.jsx"
 
 function App() {
   return (
