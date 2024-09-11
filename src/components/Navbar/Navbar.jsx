@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Img from "../../assets/cclogo2-.png";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   // State to manage the navbar's visibility
@@ -30,7 +31,11 @@ const Navbar = () => {
         <ul className="hidden md:flex items-center justify-center">
           {navItems.map((item) => (
             <li key={item.id} className="listItem p-4 m-2">
-              {item.text}
+              {item.id === 1 ? (
+                <Link to={`/`}>{item.text}</Link>
+              ) : (
+                <Link to={`/${item.text}`}>{item.text}</Link>
+              )}
             </li>
           ))}
 

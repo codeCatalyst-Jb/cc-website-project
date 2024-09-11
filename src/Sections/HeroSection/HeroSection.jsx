@@ -3,8 +3,8 @@ import "./HeroSection.css";
 
 const HeroSection = () => {
   return (
-    <div
-      id="HeroSection"
+    <section
+      id="Home"
       className="w-full h-screen items-center flex flex-col justify-center gap-8 relative"
     >
       <h1 className="font-semibold text-6xl sm:text-4xl md:text-[165px] lg:text-10xl pb-9 dark:text-white ">
@@ -20,7 +20,7 @@ const HeroSection = () => {
           Know More{" "}
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 

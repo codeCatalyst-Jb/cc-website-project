@@ -13,7 +13,7 @@ const Contact = () => {
       <h1 className="text-4xl font-bold pt-8 w-full text-center text-white">
         Contact US
       </h1>
-      <p className="text-white text-center w-full mt-1 mb-8 text-gray-500 font-md">
+      <p className="text-white text-center w-full mt-1 mb-8 text-gray-500 font-md text-md">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi explicabo
         repellat rem rerum <br /> voluptate voluptatem quis in, aspernatur eum
         soluta at!
