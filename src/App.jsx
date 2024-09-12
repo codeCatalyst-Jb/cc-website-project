@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import HeroSection from "./Sections/HeroSection/HeroSection";
 import About from "./Sections/About";
 import Contact from "./Sections/ContactSection/Contact";
+import TeamAboutSection from "./Sections/TeamAboutSection/TeamAboutSection";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
           {/* Contact Route: Renders only the Contact section */}
           <Route path="/contact" element={<Contact />} />
           {/* About Route: Renders only the About section */}
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<TeamAboutSection />} />
         </Routes>
       </div>
     </Router>
