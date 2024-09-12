@@ -1,10 +1,11 @@
 import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HeroSection from "./Sections/HeroSection/HeroSection";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./Sections/About";
 import Events from "./Sections/Events";
 import Team from "./Sections/Team";
-import Contact from "./Sections/Contact";
+import Contact from "./Sections/ContactSection/Contact";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -13,9 +14,9 @@ function App() {
       <Navbar />
       <HeroSection />
       <About />
+      <Contact />
       {/* <Events />
       <Team />
-      <Contact />
       <Footer /> */}
     </div>
   );
