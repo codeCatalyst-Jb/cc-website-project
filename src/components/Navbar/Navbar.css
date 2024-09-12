@@ -3,7 +3,7 @@
     position: sticky;
     width: 100%;
     z-index: 100;
-    background-color: rgb(11, 11, 11);
+    background-color: #010002;
 }
 
 .contact-navBtn {
@@ -16,14 +16,14 @@
     color: black;
 }
 
-#menuItem li {
+li.listItem {
     list-style: none;
     position: relative;
     overflow: hidden;
     cursor: pointer;
 }
 
-#menuItem li::after {
+li.listItem::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -36,21 +36,11 @@
     z-index: -1;
 }
 
-#menuItem li:hover::after {
+li.listItem:hover::after {
     transform: translateX(0%);
     color: black;
 }
 
 .nav-hamMenu {
     display: none;
-}
-
-@media (max-width: 1085px) {
-    #nav-menu {
-        display: none;
-    }
-
-    .nav-hamMenu {
-        display: block;
-    }
 }
