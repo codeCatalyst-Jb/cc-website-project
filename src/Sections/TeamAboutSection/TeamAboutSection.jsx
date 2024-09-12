@@ -74,6 +74,58 @@ const TeamAboutSection = () => {
             </div>
           </div>
         </div>
+        <div className="live-eventSection_box">
+          <div class="mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 p-4">
+            <div className="box1 bg-slate-800 p-4 rounded-2xl">
+              <div className="live-eventDetail-top flex items-center justify-between">
+                <p className="text-white text-sm">Aug 12 2024</p>
+                <button className="bg-slate-600 text-white rounded-md py-1 px-3 ">
+                  Register Now
+                </button>
+              </div>
+              <div className="live-eventDetail-bottom pt-8">
+                <h3 className="text-white text-xl font-bold">New 2023</h3>
+                <p className="text-xs font-medium text-slate-300">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laudantium laborum fugiat tempora, iusto nulla blanditiis.
+                  Molestiae laudantium labore minima incidunt. z
+                </p>
+              </div>
+            </div>
+            <div className="box2 bg-orange-600 p-4 rounded-2xl">
+              <div className="live-eventDetail-top flex items-center justify-between">
+                <p className="text-white text-sm">Aug 12 2024</p>
+                <button className="bg-gray-300 bg-opacity-50 text-white rounded-md py-1 px-3 ">
+                  Register Now
+                </button>
+              </div>
+              <div className="live-eventDetail-bottom pt-8">
+                <h3 className="text-white text-xl font-bold">New 2023</h3>
+                <p className="text-xs font-medium text-slate-300">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laudantium laborum fugiat tempora, iusto nulla blanditiis.
+                  Molestiae laudantium labore minima incidunt. z
+                </p>
+              </div>
+            </div>
+            <div className="box3 bg-slate-50 p-4 rounded-2xl">
+              <div className="live-eventDetail-top flex items-center justify-between">
+                <p className="text-black text-sm">Aug 12 2024</p>
+                <button className="bg-slate-800 text-white rounded-md py-1 px-3 ">
+                  Register Now
+                </button>
+              </div>
+              <div className="live-eventDetail-bottom pt-8">
+                <h3 className="text-black text-xl font-bold">New 2023</h3>
+                <p className="text-xs font-medium text-slate-500">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laudantium laborum fugiat tempora, iusto nulla blanditiis.
+                  Molestiae laudantium labore minima incidunt. z
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
